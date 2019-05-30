@@ -17,6 +17,7 @@
   "dependencies": {
     "apollo-server": "^2.3.1",
     "apollo-utilities": "^1.1.2",
+    "bootstrap-vue": "^2.0.0-rc.20",
     "dotenv": "^6.2.0",
     "dotenv-expand": "^4.2.0",
     "graphql": "^14.0.2",
@@ -39,6 +40,7 @@
     "cross-env": "^5.2.0",
     "nodemon": "^1.18.9",
     "vue-cli-plugin-apollo": "^0.19.1",
+    "vue-poll": "^0.1.8",
     "vue-template-compiler": "^2.5.21"
   }
 }

@@ -1,0 +1,6 @@
+type Poll {
+  id: ID!
+  title: String!
+  description: String!
+  options: [Option!]!
+}

@@ -1,3 +1,4 @@
 type Subscription {
-  personCreated: Person
+  pollCreated: Poll
+  optionVoted: Option
 }

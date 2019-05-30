@@ -17,7 +17,7 @@ const apolloOptions = {
   typeDefs: gql(schema),
   resolvers,
 }
-
+mongoose.set('debug', true);
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true })
   .then(() => {
     return new ApolloServer(apolloOptions).listen(

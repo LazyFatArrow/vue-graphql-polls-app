@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import People from './views/People.vue'
+import Polls from './views/Polls.vue'
 
 Vue.use(Router)
 
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'people',
-      component: People
+      name: 'polls',
+      component: Polls
     },
   ]
 })
